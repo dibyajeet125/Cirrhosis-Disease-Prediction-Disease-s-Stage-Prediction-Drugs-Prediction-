@@ -3,10 +3,10 @@ Cirrhosis Disease Prediction, Disease's Stage Prediction &amp; Drugs Prediction 
 
 I've done Cirrhosis disease prediction, disease's stage prediction and drug prediction models using Logistic Regression and Random Forest. First I did EDA for visualizing the insights of our data. Then did feature engineering by converting our dataset which includes symptoms and blood tests into categorical values for prediction. Then I use Logistic Regression and Random Forest Classifier Algorithms for making our predictions models. Then I did the models evaluations by using metrics (precision, recall, f1-score & accuracy), confusion matrix & cross validation score. Then I created a prediction machine, in that machine if any patient entry his/her Age, Sex, Symptoms in Y/N and Blood Tests levels then the Machine will predict that if the patient has cirrhosis disease or not. If the patient has cirrhosis disease, it will also predict the stage of cirrhosis and will also recommend a drug for curing the disease.
 
-Overview
+Overview:
 This project involves developing predictive models to diagnose cirrhosis, predict its stage, and recommend appropriate drugs using machine learning techniques. The models are trained on a dataset of 276 patients with primary biliary cirrhosis (PBC), incorporating various clinical and biochemical features.
 
-Key Features
+Key Features:
 Dataset: The dataset includes 276 patient records with 18 features, including age, sex, symptoms (ascites, hepatomegaly, spiders, edema), and blood test results (bilirubin, cholesterol, albumin, Alk_Phos, SGOT, triglycerides, platelets, prothrombin).
 
 Models: Two machine learning models are employed:
@@ -44,5 +44,5 @@ Feature Engineering: Exploring additional features or transformations to enhance
 
 Model Ensemble: Combining predictions from multiple models to improve overall robustness.
 
-Code Structure
+Code Structure:
 The repository includes Python scripts for data preprocessing, model training, and evaluation. Key libraries used are Pandas for data manipulation, Scikit-learn for machine learning models, and Matplotlib/Seaborn for visualization.
